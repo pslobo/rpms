@@ -8,7 +8,8 @@ Version:                1.21.2
 Security scanner for your Terraform code.}
 
 %global golicenses      LICENSE
-%global godocs
+%global godocs          example CODE_OF_CONDUCT.md rules.md SIGNING.md\\\
+                        CONTRIBUTING.md README.md examples
 
 Name:           tfsec
 Release:        1%{?dist}
