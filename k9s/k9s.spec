@@ -13,9 +13,7 @@ Source0:        https://github.com/derailed/%{name}/archive/v%{version}.tar.gz
 
 # If go_compiler is not set to 1, there is no virtual provide. Use golang instead.
 BuildRequires:  %{?go_compiler:compiler(go-compiler)}%{!?go_compiler:golang}
-BuildRequires:  git
-
-BuildRequires: tar gzip git golang
+BuildRequires:  git gzip tar
 
 %description
 K9s provides a terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
