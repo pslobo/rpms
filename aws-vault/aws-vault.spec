@@ -8,7 +8,7 @@ Version:        6.6.0
 Release:        1%{?dist}
 Summary:        A vault for securely storing and accessing AWS credentials in development environments
 License:        MIT license
-URL:            https://github.com/99designs/%{name}
+URL:            https://github.com/99designs/aws-vault
 Source0:       %{url}/archive/v%{version}.tar.gz
 
 # If go_compiler is not set to 1, there is no virtual provide. Use golang instead.

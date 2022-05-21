@@ -8,7 +8,7 @@ Version:        0.25.18
 Release:        1%{?dist}
 Summary:        Kubernetes text-based user interface (TUI)
 License:        Apache2
-URL:            https://github.com/derailed/%{name}
+URL:            https://github.com/derailed/k9s
 Source0:        https://github.com/derailed/%{name}/archive/v%{version}.tar.gz
 
 # If go_compiler is not set to 1, there is no virtual provide. Use golang instead.
