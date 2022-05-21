@@ -24,7 +24,7 @@ cargo build
 %install
 install -Dm 0755 target/debug/%{name} %{buildroot}%{_bindir}/%{name}
 
-install -Dpm0644 %{name}.8 %{buildroot}/%{_mandir}/man8/%{name}.1
+install -Dpm0644 %{name}.8 %{buildroot}/%{_mandir}/man8/%{name}.8
 
 %files
 %doc README.md
