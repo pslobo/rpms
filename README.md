@@ -4,7 +4,7 @@ This repo contains rpm specs for several tools that are either missing or outdat
 
 While this is a personal repo for tools I need and targeted at the CPU architectures I own, PRs are welcome for additional tools and architectures.
 
-The corresponding [Copr repository](https://copr.fedorainfracloud.org/coprs/plobo/tools/). Enable with `dnf copr enable plobo/tools`.
+Enable the corresponding [Copr repository](https://copr.fedorainfracloud.org/coprs/plobo/tools/) with `dnf copr enable plobo/tools`.
 
 ## Included packages
 
@@ -16,4 +16,3 @@ The corresponding [Copr repository](https://copr.fedorainfracloud.org/coprs/plob
 ## Credits
 
 * k9s: Initial spec from [Claudi](https://git.chaoslama.org/claudi/rpms/src/branch/main/k9s.spec)
-* aws-vault: Initial spec from []
