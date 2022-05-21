@@ -26,7 +26,7 @@ AWS Vault stores IAM credentials in your operating system's secure keystore and 
 make aws-vault-linux-amd64
 
 %install
-install -Dm0755 execs/%{name} %{buildroot}%{_bindir}/%{name}
+install -Dm0755 aws-vault-linux-amd64 %{buildroot}%{_bindir}/%{name}
 
 %files
 %license LICENSE
