@@ -30,6 +30,7 @@ install -Dpm0644 %{name}.8 %{buildroot}/%{_mandir}/man8/%{name}.8
 %doc README.md
 %license LICENSE
 %{_bindir}/%{name}
+%{_mandir}/man8/*.8*
 
 %changelog
 * Sat May 21 2022 Pedro <rpms@plobo.net> - 9.0.0-1.fc36
