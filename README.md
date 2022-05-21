@@ -12,7 +12,9 @@ Enable the corresponding [Copr repository](https://copr.fedorainfracloud.org/cop
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`k9s`](https://github.com/derailed/k9s)              | [![Copr build status](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/k9s/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/k9s/)             |
 | [`aws-vault`](https://github.com/99designs/aws-vault) | [![Copr build status](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/aws-vault/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/aws-vault/) |
+| [`lazygit`](https://github.com/jesseduffield/lazygit) | [![Copr build status](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/lazygit/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/plobo/tools/package/lazygit/)     |
 
 ## Credits
 
 * k9s: Initial spec from [Claudi](https://git.chaoslama.org/claudi/rpms/src/branch/main/k9s.spec)
+* lazygit: Initial spec from [atim](https://copr.fedorainfracloud.org/coprs/atim/lazygit/)
