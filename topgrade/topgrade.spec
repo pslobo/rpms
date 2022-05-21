@@ -24,11 +24,12 @@ cargo build
 %install
 install -Dm 0755 target/debug/%{name} %{buildroot}%{_bindir}/%{name}
 
+install -Dpm0644 %{name}.8 %{buildroot}/%{_mandir}/man8/%{name}.1
+
 %files
 %doc README.md
 %license LICENSE
 %{_bindir}/%{name}
-%{_mandir}/man8/*.8*
 
 %changelog
 * Sat May 21 2022 Pedro <rpms@plobo.net> - 9.0.0-1.fc36
